@@ -73,6 +73,7 @@ img {
     height: 100%
 }
 
+
 /* Header */
 .header {
   background-color: #333333;
@@ -213,10 +214,26 @@ nav a:hover {
   clear: both;
 }
 
+@media(max-width: 660px) {
+    #two {
+    display:none;
+}
+
+#three {
+    display:none;
+}
+
+#four {
+    display:none;
+}
+
+}
+
 @media(min-width: 992px) {
   #foodmenu .menu {
     width: 45%;
   }
+    
 
   .span_1_of_2 {
     width: 50%;
